@@ -1,6 +1,13 @@
 # keras-onnx-trt
 
 Download yolov4.weights file: https://drive.google.com/open?id=1cewMfusmPjYWbrnuJRuKhPMwRe_b9PaT
+python 3.8
+tensorflow version 2.3.0
+keras version- 2.4.0
+onnx version- 1.10.1
+tensorrt version- 5.1.5
+CUDA - 10.0
+CUDNN - 7.6
 
 ### Demo
 
