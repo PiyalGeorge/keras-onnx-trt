@@ -10,7 +10,6 @@ from tensorflow.python.saved_model import tag_constants
 from tensorflow.compat.v1 import ConfigProto
 from tensorflow.compat.v1 import InteractiveSession
 
-
 def main():
     STRIDES, ANCHORS, NUM_CLASS, XYSCALE = utils.load_config()
     input_size = 416

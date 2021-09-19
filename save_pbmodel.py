@@ -2,7 +2,6 @@ import tensorflow as tf
 from core.yolov4 import YOLO, decode, filter_boxes
 import core.utils as utils
 
-
 def main():
     STRIDES, ANCHORS, NUM_CLASS, XYSCALE = utils.load_config()
     input_size = 416

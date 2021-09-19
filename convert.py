@@ -6,7 +6,6 @@ from core.yolov4 import YOLOv4, decode
 import core.utils as utils
 from core.config import cfg
 
-
 def main():
     input_size = 416
     inputweight = './data/yolov4.weights'
