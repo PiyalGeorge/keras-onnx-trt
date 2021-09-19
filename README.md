@@ -78,6 +78,7 @@ pip install pycuda
 
 cd onnx-tensorrt && cd build && make -j8 && sudo make install && cd .. && sudo python setup.py install
 
+onnx2trt /content/yolov4-model.onnx -o /content/yolov4.trt
 ```
 
 ### References
